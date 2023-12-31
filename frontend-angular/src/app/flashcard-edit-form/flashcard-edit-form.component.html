@@ -1,0 +1,20 @@
+<!-- flashcard-edit-form.component.html -->
+<div class="container">
+  <form [formGroup]="flashcardForm" (ngSubmit)="onSubmit()">
+    <div class="row mt-2">
+      <label class="col-md-1" for="question" [class]="flashcardForm.get('question')?.invalid ? 'text-danger' : ''">Question</label>
+      <textarea id="question" class="col-11" placeholder="Enter the question" rows="2" formControlName="question"></textarea>
+    </div>
+    <div class="row mt-2">
+      <label class="col-md-1" for="answer" [class]="flashcardForm.get('answer')?.invalid ? 'text-danger' : ''">Answer</label>
+      <textarea id="answer" class="col-11" placeholder="Enter the answer" rows="2" formControlName="answer"></textarea>
+    </div>
+    <div class="row mt-2">
+      <div class="col-md-2"></div>
+      <div class="col-md-2">
+        <button type="submit" class="btn btn-primary" [disabled]="flashcardForm.invalid">Submit</button>
+        <span *ngIf="flashcardForm.invalid" class="col-md-8 text-danger">Please fill out all required fields.</span>
+      </div>
+    </div>
+  </form>
+</div>
