@@ -22,12 +22,13 @@ import { ExploreLessonsComponent } from './explore-lessons/explore-lessons.compo
 import { QuizzComponent } from './quizz/quizz.component';
 import { QuizPageComponent } from './quiz-page/quiz-page.component';
 import {ProgressStatisticsComponent} from "./progress-statistics/progress-statistics.component";
-
+import { FlashcardEditFormComponent } from './flashcard-edit-form/flashcard-edit-form.component';
 
 
 const routes: Routes = [
   { path:'lesson-edit-form', component: LessonEditFormComponent },
   { path:'lesson-list', component: LessonListPageComponent },
+  { path: 'flashcard-edit/:id', component: FlashcardEditFormComponent },
   { path:'lesson/:id', component: LessonDetailPageComponent },
   { path:'test-page1', component: TestPage1Component },
   { path: 'lesson-search-page', component: LessonSearchPageComponent },
