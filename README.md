@@ -5,7 +5,7 @@ HU Yvan - ESILV - Data Science & AI
 
 NOUADJE Enge - ESILV Data Science & AI
 
-Home page
+Home page - Here you can choose to search for a lesson or test your knowledge in the quiz section with flashcards or use the navigation bar 
 ![image](https://github.com/Budweiser1337/Anki-Copy/assets/145338914/e786eb42-0c0b-4609-a813-728fd3602932)
 
 Choosing a course to test yourself with flashcards
@@ -19,10 +19,10 @@ Flashcard exemple
 Search for a lesson
 ![image](https://github.com/Budweiser1337/Anki-Copy/assets/145338914/4fd7efe4-63f9-45cf-94f4-ff7b8ba2a260)
 
-Study page
+Study page - Here you can study 
 ![image](https://github.com/Budweiser1337/Anki-Copy/assets/145338914/bbd035ea-bb03-4b4e-a490-fb8987c89b7c)
 
-Learning Facts from the study page
+Learning Facts from the study page 
 ![image](https://github.com/Budweiser1337/Anki-Copy/assets/145338914/d04c8f1b-f37a-4f23-a20c-da63d32e7a63)
 
 Progress statistics using Highcharts
