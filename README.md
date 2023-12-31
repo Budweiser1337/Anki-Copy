@@ -2,6 +2,7 @@
 Welcome to this Anki copy project made for a Node & React class.
 
 HU Yvan - ESILV - Data Science & AI
+NOUADJE Enge - ESILV Data Science & AI
 
 Home page
 ![image](https://github.com/Budweiser1337/Anki-Copy/assets/145338914/e786eb42-0c0b-4609-a813-728fd3602932)
