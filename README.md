@@ -33,7 +33,7 @@ Documentation
 ![image](https://github.com/Budweiser1337/Anki-Copy/assets/145338914/2e5c5022-18dc-4c20-936e-ee07fc9f0127)
 
 About
-![image](https://github.com/Budweiser1337/Anki-Copy/assets/145338914/e54578c8-a3f3-4f1b-8672-2252681444e0)
+![image](https://github.com/Budweiser1337/Anki-Copy/assets/145338914/2f18e9f3-1dcc-4780-a079-2f8f2652a610)
 
 Login Page
 ![image](https://github.com/Budweiser1337/Anki-Copy/assets/145338914/82f0faa1-6b7b-4cba-885a-98f485abbd20)
