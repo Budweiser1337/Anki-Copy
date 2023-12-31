@@ -1,0 +1,2 @@
+PS C:\cours\A4\Node_React\TD\TD2> npm install -s express
+PS C:\cours\A4\Node_React\TD\TD2> npm install -g typescript
