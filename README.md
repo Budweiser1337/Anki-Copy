@@ -1,4 +1,6 @@
 # Anki-Copy
+Welcome to this Anki copy project made for a Node & React class.
+
 Home page
 ![image](https://github.com/Budweiser1337/Anki-Copy/assets/145338914/e786eb42-0c0b-4609-a813-728fd3602932)
 
@@ -51,4 +53,6 @@ Export
 
 New Lesson
 ![image](https://github.com/Budweiser1337/Anki-Copy/assets/145338914/818acc4b-059d-4292-83fb-703753de7d60)
+![image](https://github.com/Budweiser1337/Anki-Copy/assets/145338914/c73ed2c7-130e-4264-9627-ebd2f18e5aba)
+
 
