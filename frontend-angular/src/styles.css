@@ -1,0 +1,31 @@
+/* Example styles for themes */
+.theme-default {
+  --primary-color: #007bff; /* Define your primary color */
+  --secondary-color: #6c757d; /* Define your secondary color */
+  --background-color: #ffffff; /* Define your background color */
+  --text-color: #000000; /* Define your text color */
+
+  /* Add more styles for the default theme */
+}
+
+.theme-dark {
+  --primary-color: #2196F3; /* Define your primary color for the dark theme */
+  --secondary-color: #495057; /* Define your secondary color for the dark theme */
+  --background-color: #343a40; /* Define your background color for the dark theme */
+  --text-color: #ffffff; /* Define your text color for the dark theme */
+
+  /* Add more styles for the dark theme */
+}
+
+/* Example styles for font sizes */
+.font-small {
+  font-size: 14px;
+}
+
+.font-medium {
+  font-size: 18px;
+}
+
+.font-large {
+  font-size: 22px;
+}
