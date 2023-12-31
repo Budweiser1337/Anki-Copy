@@ -1,0 +1,13 @@
+:host-context(.theme-default) {
+  --primary-color: #007bff; /* Define your primary color */
+  --secondary-color: #6c757d; /* Define your secondary color */
+  --background-color: #ffffff; /* Define your background color */
+  --text-color: #000000; /* Define your text color */
+}
+
+:host-context(.theme-dark) {
+  --primary-color: #2196F3; /* Define your primary color for the dark theme */
+  --secondary-color: #495057; /* Define your secondary color for the dark theme */
+  --background-color: #343a40; /* Define your background color for the dark theme */
+  --text-color: #ffffff; /* Define your text color for the dark theme */
+}

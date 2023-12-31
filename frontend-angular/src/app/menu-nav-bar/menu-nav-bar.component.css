@@ -1,0 +1,59 @@
+/* Add these styles to your existing CSS file */
+
+/* Navbar styling */
+.navbar {
+  background-color: #3498db; /* Blue background color */
+  padding: 10px; /* Add some padding for better spacing */
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+  color: #0a0404 !important; /* White text color */
+  font-weight: bold; /* Bold font for the brand */
+}
+
+/* Navbar toggle button styling */
+.navbar-toggler-icon {
+  background-color: #fff; /* White color for the toggle button */
+}
+
+/* Navbar links styling */
+.navbar-nav .nav-link {
+  color: #2c3e50 !important; /* Dark text color for links */
+  margin-right: 15px; /* Adjust spacing between links */
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  border: 1px solid #3498db; /* Add a border to the dropdown */
+}
+
+/* Dropdown item styling */
+.dropdown-item {
+  color: #3498db !important; /* Blue text color for dropdown items */
+}
+
+/* Add an icon before the dropdown item text */
+.dropdown-item:before {
+  content: '\f054'; /* Unicode for a right-facing arrow (adjust the icon based on your library) */
+  font-family: 'Font Awesome 5 Free'; /* Font Awesome library */
+  margin-right: 10px; /* Adjust spacing between the icon and text */
+}
+
+/* Hover effect for dropdown items */
+.dropdown-item:hover {
+  background-color: #3498db !important; /* Blue background on hover */
+  color: #fff !important; /* White text on hover */
+}
+
+/* Profile dropdown styling */
+#profileDropdown::after {
+  content: '\f2bd'; /* Unicode for a user icon (adjust based on your library) */
+  font-family: 'Font Awesome 5 Free'; /* Font Awesome library */
+  margin-left: 5px; /* Adjust spacing between text and icon */
+}
+
+/* Profile dropdown menu styling */
+#profileDropdown + .dropdown-menu {
+  border: 1px solid #3498db; /* Add a border to the dropdown */
+}

@@ -1,0 +1,162 @@
+<div class="container">
+
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Lesson Search</h2>
+      </div>
+    </div>
+
+    <!-- Search Mode Toggle -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-check form-check-inline">
+          <input type="radio" class="form-check-input" id="basicMode" name="searchMode" [(ngModel)]="searchMode" value="basic">
+          <label class="form-check-label" for="basicMode">Basic Mode</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input type="radio" class="form-check-input" id="advancedMode" name="searchMode" [(ngModel)]="searchMode" value="advanced">
+          <label class="form-check-label" for="advancedMode">Advanced Mode</label>
+        </div>
+      </div>
+    </div>
+
+    <!-- basic search mode-->
+    <div class="row" *ngIf="searchMode === 'basic'">
+      <div class="col-md-3">
+        <div class="form-group">
+          <label for="title">Title:</label>
+          <input type="text" id="title" class="form-control" placeholder="Enter title">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="form-group">
+          <label for="description">Description:</label>
+          <input type="text" id="description" class="form-control" placeholder="Enter description">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="form-group">
+          <label for="category">Category:</label>
+          <input type="text" id="category" class="form-control" placeholder="Enter category">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="form-group">
+          <label for="level">Level:</label>
+          <input type="number" id="level" class="form-control" placeholder="Enter level">
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="tags">Tags:</label>
+          <input type="text" id="tags" class="form-control" placeholder="Enter tags">
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="author">Author:</label>
+          <input type="text" id="author" class="form-control" placeholder="Enter author">
+        </div>
+      </div>
+
+    </div>
+    <div class="row" *ngIf="searchMode === 'basic'">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="lastModifiedDate">Last Modified Date:</label>
+          <input type="date" id="LastModifiedDate" class="form-control">
+        </div>
+      </div>
+    </div>
+
+    <!-- advanced search mode-->
+    <div class="row" *ngIf="searchMode === 'advanced'">
+
+      <div class="col-md-3">
+        <div class="form-group">
+          <label for="advancedStringOperator">Operator:</label>
+          <select id="advancedStringOperator" class="form-control">
+            <option value="containsIgnoreCase">Contains Ignore Case (default)</option>
+            <option value="like">Like</option>
+            <option value="caseInsensitiveLike">Case Insensitive Like</option>
+            <option value="startsWith">Starts With</option>
+            <option value="exact">Exact Match</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="form-group">
+          <label for="advancedTitle">Title:</label>
+          <input type="text" id="advancedTitle" class="form-control" placeholder="Enter title">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="form-group">
+          <label for="advancedDescription">Description:</label>
+          <input type="text" id="advancedDescription" class="form-control" placeholder="Enter description">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="form-group">
+          <label for="advancedcategory">Category:</label>
+          <input type="text" id="advancedCategory" class="form-control" placeholder="Enter category">
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="advancedTags">Tags:</label>
+          <input type="text" id="advancedTags" class="form-control" placeholder="Enter tags">
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="advancedAuthor">Author:</label>
+          <input type="text" id="advancedAuthor" class="form-control" placeholder="Enter author">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="form-group">
+          <label for="advancedLevelOperator">Operator:</label>
+          <select id="advancedLevelOperator" class="form-control">
+            <option value="equals">=</option>
+            <option value="greaterOrEqual">>=</option>
+            <option value="lessOrEqual"><=</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="form-group">
+          <label for="advancedLevel">Level:</label>
+          <input type="number" id="advancedLevel" class="form-control" placeholder="Enter level">
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="lastModifiedDate">Last Modified Date Range:</label>
+          <input type="date" id="startLastModifiedDate" class="form-control">
+          <input type="date" id="endLastModifiedDate" class="form-control">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <button class="btn btn-primary" (click)="searchLessons()">Search</button>
+        </div>
+      </div>
+    </div>
+  </div>

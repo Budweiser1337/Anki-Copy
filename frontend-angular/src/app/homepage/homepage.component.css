@@ -1,0 +1,15 @@
+/* styles.css */
+.jumbotron {
+  background-color: #f8f9fa; /* Light gray background color */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 i {
+  color: #007bff; /* Blue color for icons in h1 */
+}
+
+.btn i {
+  margin-right: 5px; /* Add a margin between the icon and text in buttons */
+}

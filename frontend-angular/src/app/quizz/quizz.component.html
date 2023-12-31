@@ -1,0 +1,15 @@
+<div class="container mt-4 mb-5"> <!-- Added mb-5 for bottom margin -->
+  <h2 class="text-center mb-4">Quiz Page</h2>
+
+  <!-- Card for each course -->
+  <div *ngFor="let course of courses" class="card mb-4">
+    <div class="card-body">
+      <h3 class="card-title">{{ course.title }}</h3>
+
+      <!-- Button with icon to start flashcards -->
+      <button class="btn btn-success" (click)="onSelectCourse(course)">
+        <i class="fas fa-play-circle"></i> Start Flashcards
+      </button>
+    </div>
+  </div>
+</div>

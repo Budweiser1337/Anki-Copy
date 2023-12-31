@@ -1,0 +1,38 @@
+<!-- settings.component.html -->
+<div class="container mt-4">
+  <h2 class="text-info"><i class="fas fa-cogs"></i> Settings</h2>
+  <p>
+    Adjust your Anki Copy account settings to customize your learning experience.
+  </p>
+  <h4>Account Settings</h4>
+  <ul>
+    <li><strong>Change Password:</strong> Update your account password.</li>
+    <li><strong>Notification Preferences:</strong> Choose how you'd like to receive updates.</li>
+    <!-- Add more settings options as needed -->
+  </ul>
+  <h4>Appearance</h4>
+  <ul>
+    <li><strong>Theme:</strong> Choose a color theme for the application.</li>
+    <li><strong>Font Size:</strong> Adjust the text size for better readability.</li>
+    <!-- Add more appearance options as needed -->
+  </ul>
+  <!-- Add any additional settings or customization options here -->
+</div>
+<!-- settings.component.html -->
+<div class="container mt-4">
+  <form [formGroup]="settingsForm" (ngSubmit)="onSubmit()">
+    <!-- Appearance Settings Section -->
+    <div *ngFor="let setting of appearanceSettings">
+      <div class="form-group">
+        <label>{{ setting.label }}:</label>
+        <!-- For theme, use a select dropdown -->
+        <select class="form-control" formControlName="{{ setting.controlName }}">
+          <option *ngFor="let option of setting.options" [value]="option">{{ option }}</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary">Save Settings</button>
+  </form>
+</div>
