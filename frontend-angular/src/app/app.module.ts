@@ -37,12 +37,13 @@ import { ExportComponent } from './export/export.component';
 import { QuizzComponent } from './quizz/quizz.component';
 import { QuizPageComponent } from './quiz-page/quiz-page.component';
 import { ProgressStatisticsComponent } from './progress-statistics/progress-statistics.component';
-
+import { FlashcardEditFormComponent } from './flashcard-edit-form/flashcard-edit-form.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    FlashcardEditFormComponent,
     LessonEditFormComponent,
     LessonSearchPageComponent,
     MenuNavBarComponent,
